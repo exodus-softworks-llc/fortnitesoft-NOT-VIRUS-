@@ -13,7 +13,7 @@ It features an updated triggerbot, modernized packages, and YOLOv12 support.
 
 ---
 
-Lunar uses screen capture + YOLO object detection to locate enemies in real-time.
+Exodus uses screen capture + YOLO object detection to locate enemies in real-time.
 
 > It doesn’t touch memory or inject code — think of it as a robot that watches your screen and gives you precise X,Y coordinates of targets.
 
