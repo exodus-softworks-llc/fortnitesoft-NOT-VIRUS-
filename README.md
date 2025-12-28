@@ -41,5 +41,5 @@ Requirements
 
         mss (fast screen capture)
 
-        pygame, pynput, pywin32, requests, termcolor, wheel
-**
+
+
