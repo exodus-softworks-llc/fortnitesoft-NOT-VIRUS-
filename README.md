@@ -1,4 +1,4 @@
-# 🧠 YoloV12 AI Aimbot - Lunar LITE
+# 🧠 YoloV12 AI Aimbot - Exodus LITE
 
 **Lunar LITE** is built on top of the original [Lunar](https://github.com/zeyad-mansour/lunar) project.
 
