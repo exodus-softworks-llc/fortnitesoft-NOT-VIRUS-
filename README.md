@@ -23,7 +23,7 @@ Requirements
 
     OS: Windows 10/11 64‑bit
 
-    Python: 3.13.x (installed to C:\Users\Administrator\AppData\Local\Programs\Python\Python313\)
+    Python: 3.13.x (installed to C:\Users\ur username\AppData\Local\Programs\Python\Python313\)
 
     GPU (optional but recommended):
 
