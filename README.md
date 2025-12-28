@@ -30,7 +30,6 @@ Exodus LITE works with:
 
 ---
 
-![Exodus LITE Banner](https://github.com/user-attachments/assets/05864acf-cdd1-484f-be79-fa4a9643e8c2)
 ![Thumbnail](https://github.com/user-attachments/assets/afa30dd2-8168-4c64-999e-bedb0bef4dec)
 
 ---
