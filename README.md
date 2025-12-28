@@ -1,7 +1,5 @@
 # 🧠 YoloV12 AI Aimbot - Exodus LITE
 
-**Lunar LITE** is built on top of the original [Lunar](https://github.com/zeyad-mansour/lunar) project.
-
 It features an updated triggerbot, modernized packages, and YOLOv12 support.
 
 <div align="center">
@@ -15,27 +13,6 @@ It features an updated triggerbot, modernized packages, and YOLOv12 support.
 
 ---
 
-## 🚀 Lunar V2 (Premium)
-
-**Lunar V2** includes:
-
-- ✅ 25+ customizable settings
-- ✅ Built-in UI
-- ✅ Improved detection accuracy
-- ✅ Supports **YOLOv8**, **YOLOv10**, **YOLOv12**, and **TensorRT**
-- ✅ Xbox controller support
-- ✅ Logitech GHUB mouse input
-- ✅ Makcu support (UDP)
-- ✅ Works on AMD and NVIDIA graphics cards
-
-[Download Lunar V2](https://gannonr.com/lunar)
-
-![Lunar V2 UI](https://github.com/user-attachments/assets/173ace44-2a46-45a3-aeba-5c2ce9c9e7b4)
-
----
-
-## ❓ What Is an AI Aimbot?
-
 Lunar uses screen capture + YOLO object detection to locate enemies in real-time.
 
 > It doesn’t touch memory or inject code — think of it as a robot that watches your screen and gives you precise X,Y coordinates of targets.
@@ -46,14 +23,14 @@ Lunar uses screen capture + YOLO object detection to locate enemies in real-time
 
 ## 🔧 YOLOv12 Support
 
-Lunar LITE works with:
+Exodus LITE works with:
 - [YOLOv8](https://github.com/ultralytics/ultralytics)
 - [YOLOv10](https://github.com/ultralytics/ultralytics)
 - [YOLOv12](https://github.com/ultralytics/ultralytics)
 
 ---
 
-![Lunar Lite Banner](https://github.com/user-attachments/assets/05864acf-cdd1-484f-be79-fa4a9643e8c2)
+![Exodus LITE Banner](https://github.com/user-attachments/assets/05864acf-cdd1-484f-be79-fa4a9643e8c2)
 ![Thumbnail](https://github.com/user-attachments/assets/afa30dd2-8168-4c64-999e-bedb0bef4dec)
 
 ---
@@ -92,30 +69,23 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 
 ### If the console closes instantly:
 ```
-python lunar.py
+python exodus.py
 ```
 
 ---
 
 ### To configure sensitivity:
 ```
-python lunar.py setup
+python exodus.py setup
 ```
 
 ---
 
 ### To collect training images:
 ```
-python lunar.py collect_data
+python exodus.py collect_data
 ```
 
 </details>
 
 ---
-
-## 💬 Discord Support
-
-Support is only **guaranteed** for **Lunar V2**.  
-Please don’t expect full help for the free **LITE** version.
-
-👉 [Join our Discord](https://discord.gg/aiaimbot)
