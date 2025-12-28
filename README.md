@@ -30,7 +30,6 @@ Exodus LITE works with:
 
 ---
 
-![Thumbnail](https://github.com/user-attachments/assets/afa30dd2-8168-4c64-999e-bedb0bef4dec)
 
 ---
 
