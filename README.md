@@ -1,45 +1,121 @@
-*Lunar Neural Network Aimbot*
+# 🧠 YoloV12 AI Aimbot - Lunar LITE
 
-AI-powered aimbot that uses a neural network (YOLO-based detection) plus simulated mouse input to automatically aim at targets on screen in supported games.
-This project is for educational and research purposes only.
+**Lunar LITE** is built on top of the original [Lunar](https://github.com/zeyad-mansour/lunar) project.
 
-    ⚠️ Using aimbots in online games can violate Terms of Service and may result in bans. Use at your own risk.
+It features an updated triggerbot, modernized packages, and YOLOv12 support.
 
-Features
+<div align="center">
 
-    Real-time screen capture and object detection (players / humanoid targets).
+<img src="https://ucarecdn.com/97ff66ce-04db-424f-97ad-3f246ebabef6/lunar_downloads.svg" alt="downloads" /><br>
+<a href="https://discord.gg/aiaimbot">
+  <img src="https://ucarecdn.com/c6b01f6a-a399-46e7-b89b-3f39b198888e/lunar_discord.svg" alt="Join Discord" />
+</a>
 
-    Optional CUDA acceleration when a compatible NVIDIA GPU and PyTorch CUDA build are available.
+</div>
 
-    Uses ddxoft style virtual input to move the mouse smoothly and mimic human aim behavior.
+---
 
-    Simple hotkeys:
+## 🚀 Lunar V2 (Premium)
 
-        F1 – Toggle aimbot on/off while running.
+**Lunar V2** includes:
 
-        F2 – Quit the aimbot.
+- ✅ 25+ customizable settings
+- ✅ Built-in UI
+- ✅ Improved detection accuracy
+- ✅ Supports **YOLOv8**, **YOLOv10**, **YOLOv12**, and **TensorRT**
+- ✅ Xbox controller support
+- ✅ Logitech GHUB mouse input
+- ✅ Makcu support (UDP)
+- ✅ Works on AMD and NVIDIA graphics cards
 
-Requirements
+[Download Lunar V2](https://gannonr.com/lunar)
 
-    OS: Windows 10/11 64‑bit
+![Lunar V2 UI](https://github.com/user-attachments/assets/173ace44-2a46-45a3-aeba-5c2ce9c9e7b4)
 
-    Python: 3.13.x (installed to C:\Users\ur username\AppData\Local\Programs\Python\Python313\)
+---
 
-    GPU (optional but recommended):
+## ❓ What Is an AI Aimbot?
 
-        NVIDIA RTX 50‑series card (e.g. RTX 5070 Ti) with updated drivers and CUDA 13.0 or later.
+Lunar uses screen capture + YOLO object detection to locate enemies in real-time.
 
-        PyTorch with CUDA support (e.g. torch 2.6.0+cu124 and torchvision 0.21.0+cu124).
+> It doesn’t touch memory or inject code — think of it as a robot that watches your screen and gives you precise X,Y coordinates of targets.
 
-    Python dependencies (installed via pip):
+🎯 Preconfigured for **Fortnite** — some sensitivity tuning may be needed for other games.
 
-        torch, torchvision, torchaudio (CUDA build)
+---
 
-        ultralytics (YOLO models)
+## 🔧 YOLOv12 Support
 
-        opencv-python, numpy, Pillow, scipy, pandas, matplotlib, seaborn, tqdm, tensorboard, PyYAML
+Lunar LITE works with:
+- [YOLOv8](https://github.com/ultralytics/ultralytics)
+- [YOLOv10](https://github.com/ultralytics/ultralytics)
+- [YOLOv12](https://github.com/ultralytics/ultralytics)
 
-        mss (fast screen capture)
+---
 
+![Lunar Lite Banner](https://github.com/user-attachments/assets/05864acf-cdd1-484f-be79-fa4a9643e8c2)
+![Thumbnail](https://github.com/user-attachments/assets/afa30dd2-8168-4c64-999e-bedb0bef4dec)
 
+---
 
+<details>
+<summary>📦 <strong>Installation</strong></summary>
+
+1. Install [Python 3.10.5](https://www.python.org/downloads/release/python-3105/)
+2. Install **CUDA Toolkit** 11.8, 12.4, or 12.6 (**12.6 recommended**)
+3. Navigate to the root folder and run:
+    ```
+    install_requirements.bat
+    ```
+4. Launch with:
+    ```
+    start.bat
+    ```
+
+</details>
+
+---
+
+<details>
+<summary>⚙️ <strong>Usage / Troubleshooting</strong></summary>
+
+### If you get `CUDA IS UNAVAILABLE` error:
+1. Make sure your installed CUDA version matches.
+2. Visit [pytorch.org](https://pytorch.org/get-started/locally/) and install the right build.
+
+Command for CUDA 12.6:
+```
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+```
+
+---
+
+### If the console closes instantly:
+```
+python lunar.py
+```
+
+---
+
+### To configure sensitivity:
+```
+python lunar.py setup
+```
+
+---
+
+### To collect training images:
+```
+python lunar.py collect_data
+```
+
+</details>
+
+---
+
+## 💬 Discord Support
+
+Support is only **guaranteed** for **Lunar V2**.  
+Please don’t expect full help for the free **LITE** version.
+
+👉 [Join our Discord](https://discord.gg/aiaimbot)

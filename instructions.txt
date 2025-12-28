@@ -1,0 +1,10 @@
+make sure ur python version is
+
+3.13.11
+
+and to enable cuda type: nvidia-smi scroll up and find the version of cuda ur gpu supports. and download the toolkit from nvidia.
+
+i had to force enable cuda afterwards and add it to path. all of this can be helped by the use of ai,
+if u need help add ascni on discord.
+
+this cheat is undetected. as of 28-12-2025 19:21
